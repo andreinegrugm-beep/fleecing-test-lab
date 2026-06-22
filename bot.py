@@ -4,7 +4,7 @@ import csv
 import os
 from datetime import datetime
 
-TOKEN = "PASTE_YOUR_TOKEN_HERE"
+TOKEN = "8320786387:AAFZYbucXnVD24JgBxiv9hDGCXM4j5kIXpY"
 
 bot = telebot.TeleBot(TOKEN)
 
