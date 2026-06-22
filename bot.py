@@ -4,7 +4,7 @@ import csv
 import os
 from datetime import datetime
 
-TOKEN = "8320786387:AAFZYbucXnVD24JgBxiv9hDGCXM4j5kIXpY"
+TOKEN = "PASTE_YOUR_TOKEN_HERE"
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -110,7 +110,18 @@ QUESTIONS = [
             "Слишком сильный аромат",
         ],
     },
-    {
+{
+    "key": "fragrance_rating",
+    "text": "Насколько вам понравился аромат средства?",
+    "options": [
+        "😡 Совсем не понравился",
+        "😕 Скорее не понравился",
+        "😐 Нейтрально",
+        "🙂 Понравился",
+        "🤩 Очень понравился",
+    ],
+},
+{
         "key": "used_volume_product",
         "text": "Использовали ли вы после термозащиты средство для объёма волос?",
         "options": ["Да", "Нет"],
